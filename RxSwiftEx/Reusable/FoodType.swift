@@ -12,4 +12,5 @@ enum Food: String{
     case 🍏
     case 🍔
     case 🍫
+    case none
 }

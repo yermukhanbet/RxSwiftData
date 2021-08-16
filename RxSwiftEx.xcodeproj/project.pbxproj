@@ -10,6 +10,7 @@
 		36D96BAD5B76319B0669402A /* Pods_RxSwiftExTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA63A029AE8CB4E42612BE6 /* Pods_RxSwiftExTests.framework */; };
 		39D39BF56CD268C7B623E108 /* Pods_RxSwiftEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA846F6DF8CC68427EBF4188 /* Pods_RxSwiftEx.framework */; };
 		FA11E76126CA966600B2C31F /* FoodType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA11E76026CA966600B2C31F /* FoodType.swift */; };
+		FA11E76326CAAA0300B2C31F /* TextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA11E76226CAAA0300B2C31F /* TextLabel.swift */; };
 		FA2EB6B226CA8FB2004EAD66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2EB6B126CA8FB2004EAD66 /* AppDelegate.swift */; };
 		FA2EB6B426CA8FB2004EAD66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2EB6B326CA8FB2004EAD66 /* SceneDelegate.swift */; };
 		FA2EB6B626CA8FB2004EAD66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2EB6B526CA8FB2004EAD66 /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 		8D9B5F5A62C7849827092DBE /* Pods-RxSwiftExTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftExTests.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftExTests/Pods-RxSwiftExTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DA846F6DF8CC68427EBF4188 /* Pods_RxSwiftEx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftEx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA11E76026CA966600B2C31F /* FoodType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodType.swift; sourceTree = "<group>"; };
+		FA11E76226CAAA0300B2C31F /* TextLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLabel.swift; sourceTree = "<group>"; };
 		FA2EB6AE26CA8FB2004EAD66 /* RxSwiftEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2EB6B126CA8FB2004EAD66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA2EB6B326CA8FB2004EAD66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 			children = (
 				FA2EB6E226CA926C004EAD66 /* TextButton.swift */,
 				FA11E76026CA966600B2C31F /* FoodType.swift */,
+				FA11E76226CAAA0300B2C31F /* TextLabel.swift */,
 			);
 			path = Reusable;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				FA2EB6DD26CA9039004EAD66 /* SecondViewModel.swift in Sources */,
 				FA2EB6D826CA901B004EAD66 /* FirstVCFactory.swift in Sources */,
 				FA2EB6DF26CA9043004EAD66 /* SecondVCFactory.swift in Sources */,
+				FA11E76326CAAA0300B2C31F /* TextLabel.swift in Sources */,
 				FA2EB6B626CA8FB2004EAD66 /* ViewController.swift in Sources */,
 				FA11E76126CA966600B2C31F /* FoodType.swift in Sources */,
 				FA2EB6D626CA9011004EAD66 /* FirstViewModel.swift in Sources */,
