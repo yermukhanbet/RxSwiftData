@@ -97,6 +97,30 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		FA11E76426CAB1D800B2C31F /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				FA2EB6E226CA926C004EAD66 /* TextButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		FA11E76526CAB1DF00B2C31F /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				FA11E76026CA966600B2C31F /* FoodType.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		FA11E76626CAB1E700B2C31F /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				FA11E76226CAAA0300B2C31F /* TextLabel.swift */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
 		FA2EB6A526CA8FB2004EAD66 = {
 			isa = PBXGroup;
 			children = (
@@ -120,9 +144,6 @@
 		FA2EB6B026CA8FB2004EAD66 /* RxSwiftEx */ = {
 			isa = PBXGroup;
 			children = (
-				FA2EB6B126CA8FB2004EAD66 /* AppDelegate.swift */,
-				FA2EB6B326CA8FB2004EAD66 /* SceneDelegate.swift */,
-				FA2EB6B526CA8FB2004EAD66 /* ViewController.swift */,
 				FA2EB6B726CA8FB2004EAD66 /* Main.storyboard */,
 				FA2EB6E426CA9286004EAD66 /* Reusable */,
 				FA2EB6E126CA9056004EAD66 /* VC */,
@@ -165,6 +186,9 @@
 		FA2EB6E126CA9056004EAD66 /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				FA2EB6B126CA8FB2004EAD66 /* AppDelegate.swift */,
+				FA2EB6B326CA8FB2004EAD66 /* SceneDelegate.swift */,
+				FA2EB6B526CA8FB2004EAD66 /* ViewController.swift */,
 				FA2EB6D926CA901F004EAD66 /* FirstVC */,
 				FA2EB6E026CA9047004EAD66 /* SecondVC */,
 			);
@@ -174,9 +198,9 @@
 		FA2EB6E426CA9286004EAD66 /* Reusable */ = {
 			isa = PBXGroup;
 			children = (
-				FA2EB6E226CA926C004EAD66 /* TextButton.swift */,
-				FA11E76026CA966600B2C31F /* FoodType.swift */,
-				FA11E76226CAAA0300B2C31F /* TextLabel.swift */,
+				FA11E76426CAB1D800B2C31F /* Button */,
+				FA11E76526CAB1DF00B2C31F /* Enum */,
+				FA11E76626CAB1E700B2C31F /* Label */,
 			);
 			path = Reusable;
 			sourceTree = "<group>";
