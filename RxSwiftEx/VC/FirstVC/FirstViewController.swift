@@ -21,6 +21,10 @@ class FirstViewController: UIViewController {
     }
     @objc func changeButtonPressed(){
         let vc = SecondVCFactory.make()
+        vc.selectedObserver.subscribe(onNext: {
+            [weak self] selected in
+            self?.title = selected
+            }).disposed(by: disposeBag)
         self.navigationController?.pushViewController(vc, animated: true)
     }
     override func loadView() {

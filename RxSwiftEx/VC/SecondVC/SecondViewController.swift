@@ -8,8 +8,14 @@
 
 import UIKit
 import RxSwift
+import RxCocoa
+
 class SecondViewController: UIViewController {
     let viewModel: SecondViewModel
+    private let selectedVariable = BehaviorRelay(value: "")
+    var selectedObserver:Observable<String>{
+        return selectedVariable.asObservable()
+    }
     private lazy var firstButton = TextButton(text: Food.🍏.rawValue, textColor: .white, font: .systemFont(ofSize: 30))
     private lazy var secondButton = TextButton(text: Food.🍔.rawValue, textColor: .white, font: .systemFont(ofSize: 30))
     private lazy var thirdButton = TextButton(text: Food.🍫.rawValue, textColor: .white, font: .systemFont(ofSize: 30))
@@ -21,7 +27,9 @@ class SecondViewController: UIViewController {
         return stackView
     }()
     @objc func buttonTouched(_ sender: UIButton){
-        
+        guard let text = sender.titleLabel?.text else{return}
+        selectedVariable.accept(text)
+        self.navigationController?.popViewController(animated: true)
     }
     init(viewModel: SecondViewModel){
         self.viewModel = viewModel
